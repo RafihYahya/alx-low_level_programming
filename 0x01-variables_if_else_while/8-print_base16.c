@@ -18,7 +18,7 @@ int i;
 	for (i = 48; i <= 102; i++)
 	{
 		putchar(i);
-		if (i == 57)		
+		if (i == 57)
 			i += 39;
 	}
 
