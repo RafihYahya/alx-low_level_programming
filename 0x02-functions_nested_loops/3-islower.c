@@ -7,7 +7,7 @@
 
 int _islower(int c)
 {
-    for (si = 'a'; i < 'z'; i++)
+    for (i = 'a'; i < 'z'; i++)
     {
         if (c == i)
         {
