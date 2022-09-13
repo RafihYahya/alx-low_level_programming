@@ -2,9 +2,11 @@
 
 /**
  * print_alphabet_x10 - use printchar to print
+ *
  * lowercase number 
+ *
  * 10 times
- **/
+ */
 
 void print_alphabet_x10(void)
 {
