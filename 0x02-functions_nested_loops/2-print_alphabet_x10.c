@@ -4,19 +4,16 @@
  * print_alphabet_x10 - use printchar to print lowercase number 10 times
  **/
 
- void print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
   
-int j,i;
+    int j,i;
 
-for (j = 0; j < 10 ; j++)
+    for (j = 0; j < 10 ; j++)
     {
-
-        for (i = 'a'; i <= 'z'; i++)
-        {
-	        _putchar(i);
-        }
-    _putchar('\n');
+         for (i = 'a'; i <= 'z'; i++)
+                _putchar(i);
+        _putchar('\n');
 
     }
 
