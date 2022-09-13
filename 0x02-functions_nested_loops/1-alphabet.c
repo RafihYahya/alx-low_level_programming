@@ -1,14 +1,12 @@
 #include <stdio.h>
 #include <unistd.h>
 #include "main.h"
+
 /**
- * main - Entry point
- *
- * Description: print value of n status; zero,p,n
- *
- * Return: Always 0(Success)
+ * print_alphabet - use printchar to print lowercase number
  */
-void print_alphabet (void)
+
+void print_alphabet(void)
 {
 int i;
 	for (i = 'a'; i <= 'z'; i++)
