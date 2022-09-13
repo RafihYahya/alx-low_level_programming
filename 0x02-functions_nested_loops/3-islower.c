@@ -1,8 +1,11 @@
 #include "main.h"
 
 /**
- * islower - function that check if  the alphabet is lowecase
+ * _islower - function that check if  the alphabet is lowecase
  *
+ *@c checks input
+ *
+ *Return: return 1 if true, else 0
 */
 
 int _islower(int c)
