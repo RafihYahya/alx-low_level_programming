@@ -12,7 +12,7 @@
 
 int main(void)
 {
-	write(2, "_putchar\n", 10);
+	reaturn (write(1, "_putchar\n", 10));
 
-return (0);
+/* return (0); */
 }
