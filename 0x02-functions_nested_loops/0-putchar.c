@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-
+#include "main.h"
 /**
  * main - Entry point
  *
@@ -12,7 +12,10 @@
 
 int main(void)
 {
-	return (write(1, "_putchar\n", 10));
-
-/* return (0); */
+char ch[] = "_putchar";
+int i;
+	for (int i = 0; i < 8; i++)
+		_putchar(ch[i]);
+	_putchar('\n');	
+return (0);
 }
