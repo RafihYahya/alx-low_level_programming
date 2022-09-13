@@ -2,8 +2,7 @@
 
 /**
  * print_alphabet_x10 - use printchar to print lowercase number 10 times
- */
-
+ **/
 
  void print_alphabet_x10(void)
  {
@@ -13,6 +12,6 @@ int j;
     int i;
 	    for (i = 'a'; i <= 'z'; i++)
 		    _putchar(i);
+        _putchar('\n');
     }
-    _putchar('\n');
  }
