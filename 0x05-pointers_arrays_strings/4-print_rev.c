@@ -1,19 +1,23 @@
-#include "main.h"
+#include"main.h"
 
 /**
- * print_rev - print le reversino du puta mimo
+ * print_rev - prints a string in reverse
  *
- * @s: pointer that point o freedom
+ * @s: string parameter input
  *
- * Return: no return for the maidenless
- */
+ * Return: Nothing
+*/
 
 void print_rev(char *s)
 {
-	int i, t;
+	int index;
 
-	for (t = 0; *s != '\0'; s++)
-		t++;
-	for (i = 0; i <= t; i++)
-		_putchar(*(s - i));
+	/*finds the length of string without null character*/
+	for (index = 0; s[index] != '\0'; ++index)
+		;
+
+	/*print char from the last index as you decrement*/
+	for (--index; index >= 0; --index)
+		_putchar(s[index]);
+	_putchar('\n');
 }
