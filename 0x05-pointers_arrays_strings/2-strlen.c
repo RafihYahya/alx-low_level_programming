@@ -3,7 +3,7 @@
 /**
  * _strlen - function that give u true love and length of string
  *
- * @s: le char 
+ * @s: le char
  *
  * Return: true love
  */
