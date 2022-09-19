@@ -10,9 +10,9 @@
 
 void print_rev(char *s)
 {
-	int t, i;
+	int i;
 
-	for (t = 0; *s != '\0'; s++)
+	for (i = 0; *s != '\0'; s++)
 		;
 	for (i = 0; i <= 0; i++)
 		_putchar(*(s - i));
