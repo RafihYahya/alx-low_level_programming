@@ -1,0 +1,6 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <unistd.h>
+
+int _putchar.c(char c);
+void reset_to_98(int *n);
