@@ -3,7 +3,7 @@
 /**
  * reset_to_98 - multiply two integers
  *
- * @a: input
+ * @n: input
  *
  * Return: return output
  */
