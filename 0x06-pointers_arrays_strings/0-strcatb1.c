@@ -31,8 +31,6 @@ char *_strcat(char *dest, char *src)
 			*(dest + j) = *(src + k);
 			k++;
 		}
-		if (*(src + (k-1)) == '\0')
-			i++;
 		j++;
 	}
 	return dest;
