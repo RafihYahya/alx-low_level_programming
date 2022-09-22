@@ -12,11 +12,9 @@
 int main()
 {
 
-char dest[20] = "Miaw mia";
-char src[4] = "bobo";
-char ans[30];
+char dest[40] = "Miaw mia";
+char src[10] = "bobo";
 char *p;
-p = &ans[0];
 
 char *_strcat(char *dest, char *src)
 {
@@ -39,8 +37,8 @@ char *_strcat(char *dest, char *src)
 	}
 	return dest;
 }
-p = *_strcat(dest, src);
-printf("solution,is %s",dest);
+p = _strcat(dest, src);
+printf("solution,is %s",p);
 printf("\n");
 return 0;
 }
