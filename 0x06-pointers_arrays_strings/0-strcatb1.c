@@ -37,7 +37,7 @@ char *_strcat(char *dest, char *src)
 	}
 	return dest;
 }
-p = _strcat(dest, src);
+p = *_strcat(dest, src);
 printf("solution,is %s",p);
 printf("\n");
 return 0;
