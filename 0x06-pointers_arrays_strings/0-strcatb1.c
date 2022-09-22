@@ -13,7 +13,7 @@ int main()
 {
 
 char dest[20] = "Miaw mia";
-char src[20] = "bobo";
+char src[4] = "bobo";
 char ans[30];
 char *p;
 p = &ans[0];
