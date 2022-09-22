@@ -22,11 +22,11 @@ char *_strcat(char *dest, char *src)
 {
 	int i,j,k;
 
-	while (i != 2)
+	while (i != 3)
 	{
 		if (*(dest + j) == '\0')
 			i++;
-		if (i > 0 && i < 2)
+		if (i > 0 )
 		{
 			*(dest + j) = *(src + k);
 			k++;
