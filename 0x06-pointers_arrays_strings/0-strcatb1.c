@@ -15,6 +15,8 @@ int main()
 char dest[20] = "Miaw mia";
 char src[10] = "bobo";
 char ans[30];
+char *p;
+p = &ans[0];
 
 char *_strcat(char *dest, char *src)
 {
@@ -35,7 +37,7 @@ char *_strcat(char *dest, char *src)
 	}
 	return dest;
 }
-ans = *_strcat(&dest[0],&src[0]);
+p = *_strcat(&dest[0],&src[0]);
 printf("solution,is %s",dest);
 return 0;
 }
