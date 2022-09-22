@@ -12,8 +12,8 @@
 int main()
 {
 
-char dest[20] = 'Miaw mia';
-char src[10] = 'bobo';
+char dest[20] = "Miaw mia";
+char src[10] = "bobo";
 char ans[30];
 
 char *_strcat(char *dest, char *src)
