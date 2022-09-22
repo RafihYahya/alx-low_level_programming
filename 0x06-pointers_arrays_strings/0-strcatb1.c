@@ -30,14 +30,16 @@ char *_strcat(char *dest, char *src)
 		{
 			*(dest + j) = *(src + k);
 			if (*(src + k) == '\0')
-				i++;
+			{	i++;
+				*(dest + (j+1)) = *(src + k);
+				break;
+			}
 			k++;
 		}
 		j++;
 	}
 	return dest;
 }
-dest[15] = 'a';
 p = *_strcat(&dest[0],&src[0]);
 printf("solution,is %s",dest);
 printf("\n");
