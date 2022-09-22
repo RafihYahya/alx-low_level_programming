@@ -30,8 +30,7 @@ char *_strcat(char *dest, char *src)
 		{
 			*(dest + j) = *(src + k);
 			if (*(src + k) == '\0')
-			{	i++;
-				*(dest + (j+1)) = *(src + k);
+			{
 				break;
 			}
 			k++;
