@@ -1,4 +1,5 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * *_strcat - string concatination  super device
@@ -8,6 +9,11 @@
  *
  * Return : point toward it, the abyss that consume all of us
  */
+int main()
+{
+
+char dest[20] = 'Miaw mia';
+char src[10] = 'bobo';
 
 char *_strcat(char *dest, char *src)
 {
@@ -15,14 +21,20 @@ char *_strcat(char *dest, char *src)
 
 	while (i != 2)
 	{
-		if (*(src + j) == '\0')
+		if (*(dest + j) == '\0')
 			i++;
 		if (i > 0 && i < 2)
 		{
-			*(src + j) = *(dest + k);
+			*(dest + j) = *(src + k);
 			k++;
 		}
+		if (*(src + (k-1)) == '\0')
+			i++;
 		j++;
 	}
-	return src;
+	return dest;
+}
+dest = *_strcat(&dest,&src);
+printf("solution,is %s",dest);
+return 0
 }
