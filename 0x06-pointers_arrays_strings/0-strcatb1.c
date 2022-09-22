@@ -12,7 +12,7 @@
 int main()
 {
 
-char dest[20] = "Miaw mia";
+char dest[10] = "Miaw mia";
 char src[10] = "bobo";
 char ans[30];
 char *p;
