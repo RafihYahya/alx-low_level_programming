@@ -5,7 +5,7 @@
  *
  * @s: bomijat
  *
- * Return : fuck 
+ * Return: dsd
  */
 
 int _strlen_recursion(char *s)
