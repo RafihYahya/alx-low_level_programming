@@ -23,9 +23,7 @@ int _sqrt_recursion(int n)
 	if (n > 0)
 	{
 		i = n*n;
-		_sqrt_recursion(n - 1);
-		if ( i == cstn(n))
-			return (n);
+		return (_sqrt_recursion(n - 1));
 	}
 	else if (n == 0)
 	{
