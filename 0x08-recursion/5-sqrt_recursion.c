@@ -20,12 +20,19 @@ int _sqrt_recursion(int n)
 {
 	int i;
 
-	if (n == 0)
+	if (n > 0)
+	{
+		i = n*n;
+		_sqrt_recursion(n - 1);
+		if ( i == cstn(n))
+			return (n);
+	}
+	else if (n == 0)
+	{
 		return (-1);
-	if (n < 0)
+	}
+	else (n < 0 )
+	{
 		return (-1);
-	i = n*n;
-	_sqrt_recursion(n - 1);
-	if (i == cstn(n))
-		return (n);
+	}
 }	
