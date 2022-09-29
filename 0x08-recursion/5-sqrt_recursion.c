@@ -1,29 +1,31 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * _sqrt_recursion - miawtabaw
- *
- * @n : lolita m7amra
- *
- * Return: lah ijib
+ * _sqrt_recursion - find natural square root
+ * @n: int
+ * Return: int
  */
-
-int cstn(int n)
-{
-	int *p;
-	p = &n;
-	*p = *p + 1;
-	return (n + *p);
-}
 
 int _sqrt_recursion(int n)
 {
-	int i;
-	if (n <= 0)
-		return (-1);
-	i = n*n;
-	_putchar(&cstn(n));
-	if (i == cstn(n))
-		return (n);
-	return (_sqrt_recursion(n - 1));
-}	
+return (square(n, 1));
+}
+
+/**
+ * square - find square root
+ * @n: int to find square root
+ * @val: square root
+ * Return: int
+ */
+
+int square(int n, int val)
+{
+
+if (val * val == n)
+	return (val);
+else if (val * val < n)
+	return  (square(n, val + 1));
+else
+	return (-1);
+
+}
